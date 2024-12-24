@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.color-palette {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.color-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.rectangles {
+    display: flex;
+    flex-direction: column;
+}
+
+.rectangle {
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    border: 1px solid #000;
+}
